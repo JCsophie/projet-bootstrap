@@ -3,11 +3,18 @@
 }
 
 header {
-  background-color: rgb(182, 59, 6);
+  
+  background-image: url(/photo-Basket/pexels-markus-spiske-1752757.jpg);
   background-size: cover;
   background-position: center;
 }
 
 img {
-  height: 25em;
+  height: 10em;
+}
+
+section {
+  background-image: url(/photo-Basket/pexels-bk-aguilar-945471.jpg);
+  background-size: cover;
+  background-position: center;
 }
