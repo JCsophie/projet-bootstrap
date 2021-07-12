@@ -19,3 +19,7 @@ header {
   background-position: center;
 }
 
+.produits {
+  min-height: 130px;
+}
+
