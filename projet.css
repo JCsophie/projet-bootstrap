@@ -9,12 +9,13 @@ header {
   background-position: center;
 }
 
-img {
-  height: 10em;
+.a {
+  height: 50px;
 }
 
-section {
+.child {
   background-image: url(/photo-Basket/pexels-bk-aguilar-945471.jpg);
   background-size: cover;
   background-position: center;
 }
+
