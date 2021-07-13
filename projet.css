@@ -13,10 +13,14 @@ header {
   height: 50px;
 }
 
+
 .child {
+
   background-image: url(/photo-Basket/pexels-bk-aguilar-945471.jpg);
   background-size: cover;
   background-position: center;
+  
+ 
 }
 
 .produits {
