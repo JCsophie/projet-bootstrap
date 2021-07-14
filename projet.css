@@ -1,5 +1,5 @@
 @media all and (max-width: 600px) {
-  header img { width: 100%; }
+  header img { width: 20%; }
 }
 
 header {
@@ -7,6 +7,10 @@ header {
   background-image: url(/photo-Basket/pexels-markus-spiske-1752757.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.titre {
+  font-family:'Permanent Marker', cursive;
 }
 
 .a {

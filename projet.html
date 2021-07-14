@@ -5,6 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https : //fonts.googleapis.com/css2? family= Permanent+Marqueur & display=swap" rel="stylesheet">
   <link rel="stylesheet" href="projet.css">
   <title>Document</title>
 </head>
@@ -15,7 +18,7 @@
       <img class=" a d-flex justify-content-start-sd " src="/photo-Basket/basketball-4264543_1280.png" alt="logo">
       <p class="text-center text-white d-flex justify-content-start h3">My club</p>
       <div class="titre">
-      <p class="text-center m-3 text-white display-1 ">Rejoignez l'aventure</p>
+      <p class="text-center m-3 text-white display-3 fw-bold text-capitalize ">Rejoignez l'aventure</p>
       </div>
     </div>
   </header>
@@ -32,13 +35,16 @@
         <a class="nav-link" href="#">Acceuil</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Actualité</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Palmarès</a>
-      </li>
-      <li class="nav-item">
         <a class="nav-link" href="#">Dossier d'incription</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Actus">Actus</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Palmarès">Palmarès</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
       </li>
     </ul>
   </div>
@@ -49,9 +55,9 @@
   <div class="container p-3">
     <div class="row">
       <div class="text-center p-5">
-        <h3>Inscription ouvertes</h3>
+        <h3 class="fs-1 fw-bolder text-capitalize">Inscription ouvertes</h3>
         <div class="btn-group p-3" >
-          <button id="btnGroupDrop1" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
+          <button id="btnGroupDrop1" class="btn btn-outline-dark text-white dropdown-toggle" data-bs-toggle="dropdown">
             Documents
           </button>
           <div class="dropdown-menu">
@@ -65,9 +71,9 @@
   </div>
 </section>
 <!-- Deuxième section -->
-<section class="pt-4">
+<section class=" pt-4">
   <div class="container pb-5">
-    <h2 class="pb-3">Actualité</h2>
+    <h2 class="pb-3" id="Actus">Actus</h2>
     <div class="row justify-content-md-center">
       <div class="col col-lg">
         <div class="card" style="width: 18rem;">
@@ -87,7 +93,7 @@
   </div>
 </section>
 <!-- Trosième section -->
-<section class="pt-4">
+<section class=" pt-4">
   <div class="container pb-5">
     <div class="row justify-content-md-center">
       <div class="col-md"></div>
@@ -96,7 +102,7 @@
       </div>
       <div class="col col-lg">
         <div class="card" style="width: 18rem;">
-          <img src="photo-Basket/pexels-markus-spiske-1752757.jpg" class="card-img-top" alt="panier">
+          <img src="photo-Basket/images (2).jpeg" class="card-img-top" alt="panier">
           <div class="card-body">
             <p class="card-text">Retrouver votre actualité préférée.</p>
             <a href="#" class="card-link">Card link</a>
@@ -109,29 +115,29 @@
 
 <!-- Quatrième section -->
 <section class="bg-light p-3">
-  <div class="container">
-    <h2>Nos collections</h2>
+  <div class="container" >
+    <h2 id="Palmarès">Palmarès</h2>
     <div class="produits">
     <div class="row">
       <div class="col-lg-4 col-md-6">
         <div class="card m-3"> 
-          <img src="../photo-Basket/DMND-Bball-Short-Wolf-Maroon-3D-TN.png" alt="Short" class="card-img-top" />
+          <img src="../photo-Basket/cup-1614530_1920.png" alt="cup" class="card-img-top" />
           <div class="card-body" >
-            <h5>Short</h5>
+            <h5>FlairPlay</h5>
           </div>
           <div class="card-footer">
-            <button type="button" class="btn w-100 btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#Short">Acheter</button>
+            <button type="button" class="btn w-100 btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#Short">En savoir plus</button>
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-md-6">
         <div class="card m-3"> 
-          <img src="../photo-Basket/WTB10137XB07_0_REACTION_PRO_Official_Front.png.originalt.webp" alt="ball" class="card-img-top" />
+          <img src="../photo-Basket/ballon-de-basket-ball-spalding-lnb-tf1000-legacy-taille-6.jpeg" alt="ballon" class="card-img-top" />
           <div class="card-body" >
-            <h5>Balle de basket</h5>
+            <h5>Fast pass</h5>
           </div>
           <div class="card-footer">
-            <button type="button" class="btn w-100 btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#ball">Acheter</button>
+            <button type="button" class="btn w-100 btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#ball">En savoir plus</button>
           </div>
         </div>
       </div>
@@ -140,10 +146,10 @@
         <div class="card m-3"> 
           <img src="../photo-Basket/maillot-city-edition-los-angeles-lakers.jpeg" alt="Maillot" class="card-img-top" />
           <div class="card-body">
-            <h5>Maillot</h5>
+            <h5>Moullé le Maillot</h5>
           </div>
           <div class="card-footer">
-            <button type="button" class="btn w-100 btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#Maillot">Acheter</button>
+            <button type="button" class="btn w-100 btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#Maillot">En savoir plus</button>
           </div>
         </div>
       </div>
@@ -164,15 +170,16 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title text-center">Short</h5>
+        <h5 class="modal-title text-center">FairPlay</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
       </div>
       <div class="modal-body">
-        <img src="../photo-Basket/DMND-Bball-Short-Wolf-Maroon-3D-TN.png" alt="Short" class="card-img-top" />  
+        <img src="../photo-Basket/cup-1614530_1920.png" alt="cup" class="card-img-top" /> 
+        <p>Nous avons pu assisté à une merveilleuse équipe de Basket-Ball cette saison qui a fait preuve d'un grand FairPlay envers tout ses concurrents, même lorsque le public était contre eux, cette équipe a toujours traité l'ensemble de ses adverserses avec rescpect et équité qui lui a value la récompense d'équipe la plus FairPlay de l'année.</p>
+ 
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-        <button type="button" class="btn btn-primary">En savoir plus</button>
       </div>
     </div>
   </div>
@@ -182,15 +189,15 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title text-center">Balle de basket</h5>
+        <h5 class="modal-title text-center">Fast pass</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
       </div>
       <div class="modal-body">
         <img src="../photo-Basket/WTB10137XB07_0_REACTION_PRO_Official_Front.png.originalt.webp" alt="ball" class="card-img-top" />
+        <p>La séquence de passe la plus rapide de la saison avec un superbe collectif qui restera encore dans les anales.<br> Une séquence de jeu qui représente un collectif très généreux et qui a été récompensé par l'action la plus efficace de la saison.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-        <button type="button" class="btn btn-primary">En savoir plus</button>
       </div>
     </div>
   </div>
@@ -200,15 +207,15 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title text-center">Maillot</h5>
+        <h5 class="modal-title text-center"> Moullé le Maillot</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
       </div>
       <div class="modal-body">
         <img src="../photo-Basket/maillot-city-edition-los-angeles-lakers.jpeg" alt="Maillot" class="card-img-top" />
+        <p>Remarquable équipe qui a su relevé la tête, retroussé les manches(même si nous savons qu'ils jouent en débardeurs) et moullé le maillot, alors qu'ils ont joué la moitié de saisons à 5 joueurs sans remplaçant dû à de nombreuses blessures et abscences. Je fécilite cette équipe.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-        <button type="button" class="btn btn-primary">En savoir plus</button>
       </div>
     </div>
   </div>
