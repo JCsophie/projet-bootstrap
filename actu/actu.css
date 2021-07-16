@@ -1,0 +1,20 @@
+@media all and (max-width: 600px) {
+  header img { width: 20%; }
+}
+section {
+  height: 25em;
+  background-image: url(/photo-Basket/pexels-bk-aguilar-945471.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  /* background: rgb(216, 119, 0.2); */
+  height: 150px;
+  gap: 30px;
+}
+img {
+  padding-top: 15px;
+  max-width: 80px;
+  
+}

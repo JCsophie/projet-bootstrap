@@ -8,9 +8,9 @@ header {
   background-size: cover;
   background-position: center;
 }
+
 .navbar {
   background: rgb(216, 119, 0);
-
 }
 
 .titre {
@@ -21,14 +21,11 @@ header {
   height: 50px;
 }
 
-
 .child {
   height: 25em;
   background-image: url(/photo-Basket/pexels-bk-aguilar-945471.jpg);
   background-size: cover;
   background-position: center;
-  
- 
 }
 
 .produits {
@@ -37,13 +34,10 @@ header {
 
 
 .cercle {
-  
   border-top-left-radius: 100%;
-  
   background: rgb(216, 119, 0);
 }
 
 .btn:hover {
-  
   background: rgb(216, 119, 0);
 }
