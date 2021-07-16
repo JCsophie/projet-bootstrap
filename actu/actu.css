@@ -16,5 +16,7 @@ section {
 img {
   padding-top: 15px;
   max-width: 80px;
-  
+}
+.btn:hover {
+  background: rgb(216, 119, 0);
 }
