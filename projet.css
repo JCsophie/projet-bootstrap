@@ -32,7 +32,6 @@ header {
   min-height: 130px;
 }
 
-
 .cercle {
   border-top-left-radius: 100%;
   background: rgb(216, 119, 0);
@@ -44,5 +43,9 @@ header {
 
 .foot {
   background: rgb(216, 119, 0);
+}
 
+.contact {
+  border-top-right-radius: 100%;
+  background: rgb(193, 188, 182);
 }
