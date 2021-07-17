@@ -9,3 +9,4 @@
 - Jour 4 : Améloriation de la page d'acceuil + ajout de la page contact (3h de temps) 
 + reprise : amélioration du projet.css (2h30 de temps).
 - Jour 5 : Création d'une nouvelle branche "finition + ajustement (3h de temps)
+- jour 6 : Finition et ajustement de la page d'acceuil avec un ajout d'un formulaire de contact + fusion de la branche finition avec la branche dev (temps de travail 2h)
